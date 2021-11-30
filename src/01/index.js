@@ -59,3 +59,5 @@ function send(event) {
 elBox.addEventListener('click', () => {
   send('CLICK');
 });
+
+send('LOAD');
